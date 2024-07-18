@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct RootView: View {
+    @ObservedObject private var model = AppModel()
+
     var body: some View {
         TabView {
             ModulesView()
@@ -21,6 +23,10 @@ struct RootView: View {
                     Text("Settings")
                 }
         }
+        .environmentObject(model)
+        .preferredColorScheme(
+            model.displayMode == "System" ? .none : (model.displayMode == "Dark" ? .dark : .light)
+        )
     }
 }
 
