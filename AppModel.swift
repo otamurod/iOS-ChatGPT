@@ -212,6 +212,7 @@ final class AppModel: ObservableObject {
                 case .affirmation: DispatchQueue.main.async {
                         self.generatedAffirmation = text
                     }
+                case .multimodal: DispatchQueue.main.async {}
                 case .none: break
                 }
 
@@ -252,6 +253,7 @@ final class AppModel: ObservableObject {
                 case .affirmation: DispatchQueue.main.async {
                         self.generatedAffirmation = errorMessage
                     }
+                case .multimodal: DispatchQueue.main.async {}
                 case .none: break
                 }
             }
@@ -296,6 +298,7 @@ final class AppModel: ObservableObject {
 // MARK: Modules
 
 enum Modules: CaseIterable, Identifiable {
+    case multimodal
     case newChat
     case randomConcept
     case relatedTopics
@@ -320,6 +323,7 @@ enum Modules: CaseIterable, Identifiable {
         case .comparison: return "Comparison"
         case .next: return "Next"
         case .affirmation: return "Affirmation"
+        case .multimodal: return "Multimodal (Text + Image)"
         }
     }
 
@@ -335,6 +339,7 @@ enum Modules: CaseIterable, Identifiable {
         case .comparison: return "arrow.up.arrow.down"
         case .next: return "arrowshape.right"
         case .affirmation: return "checkmark.seal"
+        case .multimodal: return "photo.stack.fill"
         }
     }
 }

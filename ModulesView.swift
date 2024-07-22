@@ -40,6 +40,7 @@ struct ModulesView: View {
                 case .comparison: ComparisonView()
                 case .next: NextView()
                 case .affirmation: AffirmationView()
+                case .multimodal: MultimodalChatView()
                 }
             }
         }

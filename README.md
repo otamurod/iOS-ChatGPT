@@ -1,1 +1,0 @@
-# ChatGPT App for iOS
