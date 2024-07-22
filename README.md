@@ -25,5 +25,5 @@ In this course, I gained valuable skills and knowledge, including:
 
 | ![Simulator Screenshot - iPhone 15 Pro - 2024-07-22 at 10 17 44](https://github.com/user-attachments/assets/1656c8bb-0ce8-46c8-a1b8-a2bae9436609) | ![Simulator Screenshot - iPhone 15 Pro - 2024-07-22 at 10 15 26](https://github.com/user-attachments/assets/56137da5-9d0e-49ee-bf03-da905acde537) |
 |---------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|
-| Screenshot 1                                                                                                   | Screenshot 2                                                                                                 |
+| Chat with images                                                                                                   | Pick images                                                                                                 |
 
